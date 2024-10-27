@@ -5,6 +5,7 @@
 </div>
 
 <div align="center">
+
 <h3 >Prévia</h3>
 
 <img src="./src/Gif/Huddle-Desktop.gif" alt="Tela Desktop">
