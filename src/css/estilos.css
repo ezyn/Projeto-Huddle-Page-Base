@@ -1,0 +1,114 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: initial;
+    background: url(../images/bg-desktop.svg) no-repeat;
+    background-color: var(--Violet);
+    padding: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo img {
+    max-width: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    max-width: 100%;
+}
+
+.container .container-image {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.container .container-image img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.container .container-info {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 3.5rem 3rem 1.5rem;
+    padding: 2rem 10rem;
+    width: 50%;
+}
+
+.container .container-info .title {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 2.8rem;
+}
+
+.container .container-info .text {
+    font-weight: 100;
+    font-size: 1.8rem;
+    margin-bottom: 3.5rem;
+}
+
+.container .container-info .btn-register {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 150px;
+    height: 44px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: var(--Violet);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.container .container-info .btn-register:hover {
+    background-color: var(--SoftMagenta);
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer .social {
+    max-width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .link {
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    margin: 0 8px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    justify-content: center;
+    align-self: center;
+    transition: 0.3s;
+}
+
+.footer .link:hover {
+    color: var(--SoftMagenta);
+    cursor: pointer;
+    border: 1px solid var(--SoftMagenta);
+}
+
+

@@ -1,0 +1,118 @@
+@media (max-width: 425px) {
+    .body {
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-size: 100%;
+        flex-direction: column;
+    }
+
+    .header .logo {
+        max-height: 50%;
+        max-width: 50%;
+    }
+
+    .header .logo img {
+        width: 100%;
+    }
+
+    .container {
+        display: block;
+        text-align: center;
+    }
+
+    .container .container-image, 
+    .container .container-info {
+        width: 100%;
+        margin: 0 auto;
+        padding: 2rem 0;
+    }
+
+    .container .container-info .title {
+        font-size: 3rem;
+        padding-top: 4rem;
+    }
+
+    .container .container-info .text {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .container .container-info {
+        padding-top: 2rem;
+        gap: 4rem
+    }
+
+    .container .container-info .btn-register {
+        margin: 0 auto;
+        font-size: 1.4rem;
+        font-weight: 500;
+        width: 180px;
+        height: 90px;
+    }
+
+    .footer {
+        text-align: center;
+        margin: 0 auto;
+        padding: 2rem 0;
+        font-size: 1.2rem;
+    }
+}
+
+    @media (max-width:1024px) {
+        .body {
+            height: initial;
+            flex-direction: column;
+        }
+
+        .header .logo {
+            max-width: 100vh;
+            max-height: 100vh;
+        }
+
+        .header img {
+            width: 100vh;
+        }
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        .container .container-image,
+        .container .container-info {
+            width: 100%;
+            margin: 0 auto;
+            padding: 2rem 0;
+            justify-content: center;
+        }
+     
+        .container .container-info {
+            padding-top: 4rem;
+            gap: 2rem;
+        }
+
+        .container .container-info .title {
+            font-size: 2.5rem;
+            padding-top: 4rem;
+        }
+
+        .container .container-info .text {
+            font-size: 2rem;
+            margin-bottom: 5rem;
+        }
+            
+        .container .container-info .btn-register {
+            margin: 0 auto;
+            font-size: 2rem;
+            font-weight: 500;
+            width: 200px;
+            height: 50px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin: 0 auto;
+            padding: 2rem 0;
+    }
+
+}
