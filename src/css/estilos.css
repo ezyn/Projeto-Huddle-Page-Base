@@ -7,6 +7,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: initial;
+    max-width: 1920px;
+    margin: 0 auto;
     background: url(../images/bg-desktop.svg) no-repeat;
     background-color: var(--Violet);
     padding: 40px;
@@ -21,7 +23,9 @@ body {
 }
 
 .header .logo img {
-    max-width: 150px;
+    max-width: 100vh;
+    max-height: 100vh;
+    margin-bottom: 4rem;
 }
 
 .container {
@@ -87,28 +91,30 @@ body {
     justify-content: flex-end;
 }
 
-.footer .social {
+.footer nav {
+    display: flex;
+}
+
+.footer nav ul {
     max-width: 100vh;
     display: flex;
     justify-content: center;
 }
 
-.footer .link {
+.footer nav ul li i {
     color: #fff;
     font-size: 2rem;
-    padding: 0.5rem 1rem;
-    margin: 0 8px;
+    padding: 1rem 1.3rem;
+    margin: 0 1rem;
     border: 1px solid #fff;
     border-radius: 50%;
     justify-content: center;
-    align-self: center;
+    align-items: center;
     transition: 0.3s;
 }
 
-.footer .link:hover {
+.footer nav ul li i:hover {
     color: var(--SoftMagenta);
     cursor: pointer;
     border: 1px solid var(--SoftMagenta);
 }
-
-
