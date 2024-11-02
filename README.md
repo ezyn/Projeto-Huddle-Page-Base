@@ -15,7 +15,7 @@
 <h2 style="color: aquamarine">Tecnologias</h2>
 
 <div align="center" >
-<figure style="height: 96px; display: flex; justify-content: space-around; text-align:center; align-items: center;">
+<figure style="height: 96px; width: 96px; display: flex; justify-content: space-around; text-align:center; align-items: center;">
         
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
 
@@ -56,7 +56,7 @@
 <h2 style="color: aquamarine">Technologies</h2>
 
 <div align="center" >
-<figure style="height: 96px; display: flex; justify-content: space-around; text-align:center; align-items: center;"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" /> 
+<figure style="height: 96px; width: 96px; display: flex; justify-content: space-around; text-align:center; align-items: center;"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" /> 
 </div> 
 
 <div> 
