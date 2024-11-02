@@ -15,7 +15,7 @@
 <h2 style="color: aquamarine">Tecnologias</h2>
 
 <div align="center" >
-<figure style="height: 96px; weight: 96px; display: flex; justify-content: space-around; text-align:center; align-items: center;" />
+<figure style="height: 80px; weight: 80px; display: flex; justify-content: space-around; text-align:center; align-items: center;" />
         
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
 
