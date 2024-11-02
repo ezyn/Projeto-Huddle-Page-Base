@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PT-BR
 
 <div align="center";>
